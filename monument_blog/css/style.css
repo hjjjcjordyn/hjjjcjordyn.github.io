@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+nav a{
+	padding: 20px;
+	color: #7B98AA;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+body {
+color: #44544e;
+margin: 0 auto;
+text-align: center;
+padding: 80px;
+}
+
+/* Fix for responsive images */
+header, img{
+	max-width: 100%;
+	font-family: 'raleway', sans-serif;
+	font-weight: 600;
+
+}
+
+
+ article {
+	 font-family: 'Raleway', sans-serif;
+	 font-weight: 600;
+	 margin: 0 auto;
+	 max-width: 85%
+	 align: center;
+	 text-align: left;
+	 margin-left: 10%;
+
+
+ }
+ h2, h3 {
+ 	font-size: 18px;
+ 	text-align: left;
+
+ }
+
+
+article p {
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	font-weight: 400;
+	font-size: 15px;
+	padding-right: 1%;
+
+}
+
+
+a:hover{
+	background-color: #000000;
+}
+h2{
+	font-size:23px;
+	text-transform: uppercase;
+}
+h1{
+	font-size:37px;
+}
+h1 a{
+	color: #000000;
+}
+
+aside{
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	margin-left:10%;
+}
+
+aside p, aside ul{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	padding-right: 10%;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+	padding: 0px 0px 0px 10px;
+}
+
+footer{
+	background-color: #CDF3F6;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	padding: 20px 30px 20px 30px;
+
+}
+
+footer p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+
+}
