@@ -4,18 +4,39 @@
 Base Styles
 ------------------------------------------- */
 nav a{
-	padding: 20px;
+	padding: 30px;
 	color: #7B98AA;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
+	text-decoration: none;
 }
 
 body {
 color: #44544e;
+font-family: 'Raleway', sans-serif;
 margin: 0 auto;
 text-align: center;
 padding: 80px;
+line-height: 21px;
+}
+
+header h1{
+	background-image: url('images/blog_header_bg.jpg');
+}
+
+hr{
+color: #44544e;
+font-weight: 600;
+}
+
+P {
+	font-family: 'Lato', sans-serif;
+}
+main {
+	display: grid;
+	grid-template-columns: 65% 35%;
+	grid-gap: 50px;
 }
 
 /* Fix for responsive images */
@@ -32,9 +53,8 @@ header, img{
 	 font-weight: 600;
 	 margin: 0 auto;
 	 max-width: 85%
-	 align: center;
 	 text-align: left;
-	 margin-left: 10%;
+
 
 
  }
@@ -69,37 +89,58 @@ h1 a{
 	color: #000000;
 }
 
-aside{
-	font-size: 18px;
-	font-weight: 600;
+
+
+aside h3{
+	padding-top: 40px;
 	font-family: 'Raleway', sans-serif;
-	text-align: left;
-	margin-left:10%;
+	font-weight: 600;
+	font-size: 18px;
 }
 
-aside p, aside ul{
-	font-family: 'Lato', sans-serif;
+aside{
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
-	padding-right: 10%;
+	text-align: left;
+
 }
-a{
+aside a{
 	text-decoration: none;
-	color: #000000;
-	padding: 0px 0px 0px 10px;
+	color: #7B98AA;
+	font-weight: 400;
+
 }
+
 
 footer{
 	background-color: #CDF3F6;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	padding: 20px 30px 20px 30px;
-
-}
-
-footer p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
+	padding: 20px 30px 20px 30px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+footer a{
+	text-decoration: none;
+	color: #44544e;
+}
+
+.email{
+	background-color: #ffffff;
+
+}
+
+.email, .connect{
+	margin-right: 30px;
+	font-size: 12px;
+	font-weight: 700;
+
+}
+.connect {
+	border: 3px solid #44544e;
+
 
 }
