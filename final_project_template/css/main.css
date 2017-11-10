@@ -1,0 +1,91 @@
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto+Condensed');
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+header{
+  background-image: url("../pup.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: Nunito;
+}
+a{
+  text-decoration: none;
+  color: #040a10;
+}
+li{
+  font-size: 18px;
+  padding-left: 20px;
+}
+p{
+  font-size: 18px;
+  padding: 0px 15px;
+}
+header a{
+  padding: 50px;
+  width: 100%;
+  font-size: 20px;
+}
+main{
+  background-image: url("../Nimvelo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 20px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div{
+  border: 5px #44545E solid;
+  margin:10px 150px 20px 150px;
+  background-color: #ffffff;
+  width: 590px;
+  font-family: Nunito;
+  font-weight: 400;
+}
+.buttons{
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+}
+button{
+  background: none;
+  border: none;
+  padding-left: 30px;
+}
+.fa{
+  size: 30px;
+}
+footer{
+  font-size: 14px;
+  text-align: center;
+}
+hr{
+  border: 2px #44545E solid;
+}
+.catmatch1, .dogmatch2, .dogmatch3, .dogmatch4{
+  display: none;
+}
+/* Fix for responsive images */
+
+@media screen {
+
+}
