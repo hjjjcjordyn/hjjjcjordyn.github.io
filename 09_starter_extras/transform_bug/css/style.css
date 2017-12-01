@@ -1,0 +1,63 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #F95758;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+  padding: 12.8px;
+  padding: .8rem;
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-weight: normal;
+}
+
+h2, h3 {
+  font-weight: 600;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+/* YOUR CODE HERE */
+
+/* Use a transform to animate the first bug on hover */
+.bug1:hover {
+  transform: rotateX(30deg) rotateX(180deg);
+}
+
+.bug2:hover {
+  transform:scale(1.5, 1.5);
+}
+
+.bug3:hover{
+  transform: scale(1.5, 1.5) rotateY(360deg);
+
+}
+/* Use a transform to animate the second bug on hover */
+
+/* Use TWO transforms to animate the third bug on hover */
+
+
+/*FINAL STEP: Make sure that the hover effects animate using a transition*/
+/*Try transition: all .3s ease-in-out*/
+.bug1,
+.bug2,
+.bug3 {
+  transition: all .3s ease-in-out;
+
+}

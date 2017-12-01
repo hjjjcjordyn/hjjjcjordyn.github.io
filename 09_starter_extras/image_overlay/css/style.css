@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300i');
+
+body {
+	text-align: center;
+	line-height: 267px;
+	font-size: 45px;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: 1px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.overlay-wrapper {
+	width: 400px;
+	height: 267px;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+
+
+}
+
+.overlay {
+	width: 400px;
+	height: 267px;
+	background-color: rgba(221, 82, 56, .9);
+	position: absolute;
+	top: 0;
+	opacity: 0;
+
+}
+
+.overlay:hover {
+opacity: 1;
+transition: all .3s ease-in-out;
+transform: scale(1.2, 1.2);
+}
