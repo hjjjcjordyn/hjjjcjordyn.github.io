@@ -107,6 +107,7 @@ $('.dogmatch4 .heart').on('click', function() {
 $('.close').on('click', function() {
   $('nav').addClass('goaway');
   $('nav').removeClass('display');
+});
 
 
   $('.hamburger').on('click', function() {
@@ -115,5 +116,30 @@ $('.close').on('click', function() {
   //add the active class to the nav to translate it on screen
 });
 //when the user clicks the X icon .close
+
+// Event for when the form is submitted
+$('form').on('submit', function (event) {
+  event.preventDefault();
+
+  var fullName = $('#name').val();
+
+
+
+  console.log(fullName.length);
+//If fullname is <==1
+  //addClass .errormessage to make full name input border red
+if (fullName.length <=1) {
+  $('#name').addClass('errormessage');
+  //$('#name').after('Enter your full name')
+
+
+//fadeIn p
+
+}
+  else{
+  //removeClass .errormessage
+  $('#name').removeClass('errormessage');
+  $('#name').removeClass('')
+}
 
 });

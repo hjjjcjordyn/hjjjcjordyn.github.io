@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Petmatch Profile</title>
+  <title>Contact</title>
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link rel="jonas-vincent-2717.jpg" href="jonas-vincent-2717">
@@ -16,12 +16,19 @@
 <body>
   <!-- Add your site content here. Keep it pretty and use indentation :) -->
   <header>
+  <h1>Contact Us</h1>
     <nav>
-      <a href="final_project_template_/about.html">About</a>
-      <a href="final_project_template/profile.html">Your Profile</a>
+      <a href="#" class="close">x</a>
+      <a href="file:///C:/Users/jmiddlebrook/Desktop/FEWD/09_starter_extras/final_project_template/index.html">Home</a>
+      <a href="file:///C:/Users/jmiddlebrook/Desktop/FEWD/09_starter_extras/final_project_template/about.html">About</a>
+        <a href="file:///C:/Users/jmiddlebrook/Desktop/FEWD/09_starter_extras/final_project_template/contact.html">Contact</a>
     </nav>
-    <h1>Contact</h1>
-  </header>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+</header>
   <!-- HINT: Need to link to another page? Create a file with an html extension in your main project folder. -->
   <!-- Then link to it using an anchor. for example: <a href="blog.html">Blog</a> -->
   <!DOCTYPE html>
@@ -34,9 +41,8 @@
   <body>
 <main>
   	<form action="htps://formspree.io/jordynmiddlebrooks@gmail.com" method="post">
-  	<h1>Get in Touch</h1>
   	<input type="text" id="name" placeholder="Full Name *" name="full-name">
-  	<input type="email" placeholder="Email *" name="_replyto">
+    <input type="email" id="email" placeholder="Email *" name="_replyto">
   	<input type="text" placeholder="Subject">
   	<textarea placeholder="Message"></textarea>
   	<button type="submit">Submit</button>
