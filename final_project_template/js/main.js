@@ -68,7 +68,6 @@ $('.dogmatch4 .heart').on('click', function() {
   $('.dogmatch4').addClass('slideright');
   $('.dogmatch4').fadeOut('fast');
   //make other div fadeIn
-  $('.dogmatch').fadeIn('fast');
   //repeat for all
 
 });
@@ -79,26 +78,42 @@ $('.dogmatch4 .heart').on('click', function() {
       $('.dogmatch4').addClass('slideleft');
       $('.dogmatch4').fadeOut('fast');
     //make other div move in (translate X 100% to the right) from the left side of the screen and fadeIn
-      $('.dogmatch').fadeIn('fast');
+
 
 });
 
 //when the user scrolls greater than or equal to 50 px
   //make the img "../pup.jpeg appear as background img for the header and the footer
-$(window).on('scroll', function () {
+//$(window).on('scroll', function () {
   	// Google $(window).scrollTop();
-  	var distanceScrolled = $(window).scrollTop();
+  	//var distanceScrolled = $(window).scrollTop();
   	//Log distanceScrolled to the console to see what it holds!
-  	console.log(distanceScrolled);
+  	//console.log(distanceScrolled);
     // if distanceScrolled is greater than or equal to 50
       // Add a class to the nav to update styles (give it a white background color)
-  		if (distanceScrolled >= 50) {
-  			$('header').addClass('.headerscroll');
-  		} else if (distanceScrolled >=100) {
-        $('footer').addClass('headerscroll');
-      } else {
-  			$('header').removeClass('headerscoll');
-        $('footer').removeClass('headerscoll');
-  		}
+  		//if (distanceScrolled >= 50) {
+  		//	$('header').addClass('.headerscroll');
+  		//} else if (distanceScrolled >=100) {
+      //  $('footer').addClass('headerscroll');
+      //} else {
+  		//	$('header').removeClass('headerscoll');
+    //    $('footer').removeClass('headerscoll');
+  	//	}
+
+//});
+
+//when the screen size is 600px or less
+
+$('.close').on('click', function() {
+  $('nav').addClass('goaway');
+  $('nav').removeClass('display');
+
+
+  $('.hamburger').on('click', function() {
+    $('nav').removeClass('display');
+    $('nav').removeClass('goaway');
+  //add the active class to the nav to translate it on screen
+});
+//when the user clicks the X icon .close
 
 });
