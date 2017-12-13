@@ -82,6 +82,10 @@ $('.dogmatch4 .heart').on('click', function() {
 
 });
 
+
+
+
+
 //when the user scrolls greater than or equal to 50 px
   //make the img "../pup.jpeg appear as background img for the header and the footer
 //$(window).on('scroll', function () {

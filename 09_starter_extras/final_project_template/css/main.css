@@ -88,12 +88,14 @@ p{
 
   nav{
   width: 10%;
-  height: 20%;
   background-color:	#dfdfdf;
   position: fixed;
   top: 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
   left: 0;
   font-size: 20px;
+
 }
 nav a{
   display: block;
@@ -128,12 +130,11 @@ main{
 .name{
   font-size: 55px;
   text-align: center;
-  padding:10px;
+  margin-top:15px;
 }
 .about{
   position: relative;
   padding-bottom: 10px;
-
 }
 .content{
   border:none;
@@ -158,7 +159,7 @@ section{
 
 }
 .catmatch1{
-  position: absolute;
+  position: relative;
   z-index: 9;
 }
 .dogmatch3{
@@ -179,7 +180,9 @@ div{
   background-color: #FDFBF9;
   max-width: 700px;
   margin: 20px;
-
+}
+li{
+  padding-top: 20px;
 }
 
 h3{
@@ -207,7 +210,6 @@ i:hover{
   transition: all .5s ease-in;
   transform: translateX(-100%);
 }
-
 button{
   border: none;
   display: grid
@@ -237,6 +239,7 @@ hr{
 }
 .dogmatch, .catmatch1, .dogmatch2, .dogmatch3, .dogmatch4{
   border-bottom: 8px solid #363030;
+/*  position: relative; */
 }
 .catmatch1, .dogmatch2, .dogmatch3, .dogmatch4{
   display: none;
@@ -248,7 +251,6 @@ hr{
   cursor: pointer;
   border: none;
   background-color:transparent;
-
 }
 .line{
   width: 25px;
@@ -263,8 +265,8 @@ hr{
 
 @media screen and (max-width: 600px) {
   div {
-      width: 80%;
-      display:inline-block;
+      width: 90%;
+      display:block;
     }
     .content{
       display:block;
@@ -305,11 +307,20 @@ hr{
     h1{
       text-align: center;
     }
+    .name{
+      font-size: 30px;
+    }
+    .content p{
+      font-size: 17px;
+    }
     nav{
       width: 25%;
     }
     .hamburger{
       display: block;
+    }
+    button{
+      font-size: 20px;
     }
 
 }
